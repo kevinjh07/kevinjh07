@@ -2,17 +2,9 @@
 
 Software engineer, 12 years — the last 8 on Java and Spring Boot backends for high-volume systems.
 
-Today at **Zup (Itaú group)**, on real-estate-backed credit products: a regulated domain with external
-integrations and direct financial impact when something fails. I build and maintain the services in that flow,
-review the team's code, and take part in the architecture decisions.
-
-What I do well: microservices that survive change — a test architecture that holds up under refactoring,
-observability that surfaces the problem before the customer reports it, and APIs that absorb peaks without
-doubling the infrastructure.
-
 **Java · Spring Boot · AWS (ECS, SNS, SQS, S3) · PostgreSQL · Docker · Angular · TypeScript**
 
-Belo Horizonte, Brazil · [LinkedIn](https://www.linkedin.com/in/kevinjh07) · [TabNews](https://www.tabnews.com.br/kevinjh07)
+[LinkedIn](https://www.linkedin.com/in/kevinjh07) · [TabNews](https://www.tabnews.com.br/kevinjh07)
 
 Open to conversations about tech lead and staff engineer roles.
 
