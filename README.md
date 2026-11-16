@@ -14,22 +14,6 @@ Open to conversations about tech lead and staff engineer roles.
 
 What I ship professionally is private, so these are the public ones. Their documentation is in Portuguese.
 
-### [finguard](https://github.com/kevinjh07/finguard) · Python, Amazon Bedrock
-
-A complaint-analysis pipeline for financial services — the kind of complaint that arrives through SAC, Ouvidoria
-or the Central Bank. Free text in, structured analysis and a risk opinion out.
-
-The engineering is in the guardrails. Sanitization is deterministic and runs *before* any model call: it masks
-personal data, obfuscates abusive language and flags adversarial content, on the way in and on the way out.
-Urgency and risk floors only ever escalate, so an injection that talks the model into downgrading a case cannot
-move what the rule already established — and the divergence is recorded in the opinion itself.
-
-Cost is routed rather than accepted: across a 500-complaint batch, 23% of the opinions are issued by rules
-without touching a model at all, and the rest split between a fast and a strong model according to the risk
-floor. The figures come from the execution trace, not from an estimate. Three execution modes — `mock`
-(deterministic, offline, zero cost), `replay` (recorded cassettes) and `live` (Bedrock Converse API with
-adaptive retries). 25 test suites, mutation testing, and the architecture decisions written down.
-
 ### [Onde Tem Premium](https://ondetempremium.com.br) · source private
 
 Finds the nearest filling station selling premium gasoline in Brazil. Web and Android, in production on
